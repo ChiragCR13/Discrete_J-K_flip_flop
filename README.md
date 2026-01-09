@@ -52,10 +52,10 @@ The slave latch then transfers this stored state to the output terminals (Q and 
 By ensuring that only one latch is active at any given time, the master–slave configuration prevents multiple toggles within a single clock cycle. This architecture guarantees that the output changes state only once per clock pulse, thereby eliminating the race-around condition inherent in level-triggered J-K flip-flops.
 
 ### Figure 1: Block level circuit diagram of a master–slave J-K flip-flop
-![Block Diagram](images/Figure-1.jpg)
+![Block Diagram](images/Figure-1.png)
 
 ### Figure 2: Circuit diagram of an astable multivibrator
-![Astable Multivibrator](images/Figure-2.jpg)
+![Astable Multivibrator](images/Figure-2.png)
 
 
 ---
@@ -137,7 +137,7 @@ Figure 3 gives the truth table of the J-K flip-flop.
 Figures 4–7 depict the circuit operating in the states described in the truth table.
 
 ### Figure 3: Truth table of J-K flip-flop
-![Truth Table](images/Figure-3.jpg)
+![Truth Table](images/Figure-3.png)
 
 ### Figure 4: Stable state of Q = 1 when J = 0 and K = 0
 ![State 00](images/Figure-4.jpg)
